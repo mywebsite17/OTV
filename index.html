@@ -132,13 +132,29 @@
         });
       }
     </script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="manifest" href="./manifest.json?v=v1781345713585">
+    <meta name="theme-color" content="#ca68b9">
+    <link rel="apple-touch-icon" href="./icon-192.png?v=v1781345713585">
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js?v=v1781345713585')
+            .then(reg => console.log('SW Registered'))
+            .catch(err => console.log('SW Failed', err));
+        });
+      }
+    </script>
 </head>
 <body>
 
     <div class="top-nav-actions">
-        <button class="outline-btn danger-btn" id="navClosePlayerBtn" onclick="closePlayer()" style="display: none;">✖ إغلاق المشغل</button>
+        <button class="outline-btn danger-btn" id="navClosePlayerBtn" onclick="closePlayer()" style="display: none;">✖</button>
         <button class="outline-btn action-btn" id="theaterModeBtn" onclick="toggleTheaterMode()" style="display: none;">🎬 وضع السينما</button>
-        <button class="outline-btn action-btn" id="navRefreshPlayerBtn" onclick="refreshPlayer()" style="display: none;">🔄 ريفريش</button>
+        <button class="outline-btn action-btn" id="navRefreshPlayerBtn" onclick="refreshPlayer()" style="display: none;">🔄 </button>
         
         <button class="outline-btn success-btn" onclick="downloadAsHTML()">💾 تحميل ملف HTML (آمن)</button>
         <button class="outline-btn action-btn" onclick="triggerM3UImport()">📥 استيراد m3u8</button>
@@ -703,7 +719,7 @@
             document.body.classList.toggle('theater-active');
             const btn = document.getElementById('theaterModeBtn');
             if (document.body.classList.contains('theater-active')) {
-                btn.innerText = '🔙 إلغاء السينما'; window.scrollTo(0, 0); 
+                btn.innerText = '🔙'; window.scrollTo(0, 0); 
             } else { btn.innerText = '🎬 وضع السينما'; }
         }
 
