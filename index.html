@@ -88,6 +88,7 @@
         #iframe-wrapper { width: 100%; height: 100%; display: block; }
         #hls-player, #iframe-player { width: 100%; height: 100%; border: none; display: block; object-fit: fill; }
         .hidden { display: none !important; }
+        #click-blocker { position: absolute; inset: 0; z-index: 99; display: none; background: transparent; }
         
         .error-message { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #ff004c; font-weight: bold; text-align: center; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 10px; display: none; z-index: 100; border: 1px solid #ff004c; }
 
@@ -145,6 +146,22 @@
         });
       }
     </script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="manifest" href="./manifest.json?v=v1781414154787">
+    <meta name="theme-color" content="#6f156c">
+    <link rel="apple-touch-icon" href="./icon-192.png?v=v1781414154787">
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js?v=v1781414154787')
+            .then(reg => console.log('SW Registered'))
+            .catch(err => console.log('SW Failed', err));
+        });
+      }
+    </script>
 </head>
 <body>
 
@@ -180,6 +197,7 @@
         <button class="outline-btn toggle-btn-on" id="adblockToggleBtn" onclick="toggleAdblock()">🛑 الإعلانات: ممنوعة</button>
         <button class="outline-btn toggle-btn-on" id="popupToggleBtn" onclick="togglePopupBlocker()">🚫 المنبثقة: ممنوعة</button>
         <button class="outline-btn toggle-btn-off" id="sandboxToggleBtn" onclick="toggleSandbox()">📦 قيود المشغل (Sandbox): متوقف</button>
+        <button class="outline-btn toggle-btn-off" id="clickBlockerToggleBtn" onclick="toggleClickBlocker()">👻 الطبقة الشفافة: معطلة</button>
         <button class="outline-btn toggle-btn-off" id="proxyToggleBtn" onclick="toggleProxyProtection()">🔒 الفحص: مسموح</button>
     </div>
 
@@ -187,9 +205,10 @@
 
     <div id="video-wrapper">
         <div id="player-error" class="error-message">⚠️ الرابط ده محمي أو عبارة عن (Chunk). يرجى سحب الرابط الأساسي!</div>
+        <div id="click-blocker"></div>
         <video id="hls-player" controls playsinline class="hidden"></video>
         <div id="iframe-wrapper">
-            <iframe id="iframe-player" allowfullscreen allow="autoplay; encrypted-media" src=""></iframe>
+            <iframe id="iframe-player" allowfullscreen allow="autoplay; fullscreen; encrypted-media; speaker" src=""></iframe>
         </div>
     </div>
 
@@ -291,7 +310,7 @@
         // ==========================================
         // 🛡️ SECURITY & PROTECTION 
         // ==========================================
-        let isAdblockOn = true; let isPopupBlockOn = true; let isProxyBlockOn = false; let isSandboxOn = false; 
+        let isAdblockOn = true; let isPopupBlockOn = true; let isProxyBlockOn = false; let isSandboxOn = false; let isClickBlockerOn = false;
 
         let isNavHidden = false;
         function toggleNavBars() {
@@ -349,6 +368,19 @@
                 iframe.removeAttribute('sandbox');
             }
             if (!iframe.parentElement.classList.contains('hidden') && iframe.src) { let tempSrc = iframe.src; iframe.src = ""; setTimeout(() => { iframe.src = tempSrc; }, 50); }
+        }
+
+        function toggleClickBlocker() {
+            isClickBlockerOn = !isClickBlockerOn;
+            const blocker = document.getElementById('click-blocker');
+            const btn = document.getElementById('clickBlockerToggleBtn');
+            if (isClickBlockerOn) {
+                btn.innerText = '👻 الطبقة الشفافة: مفعلة'; btn.className = 'outline-btn toggle-btn-on';
+                blocker.style.display = 'block';
+            } else {
+                btn.innerText = '👻 الطبقة الشفافة: معطلة'; btn.className = 'outline-btn toggle-btn-off';
+                blocker.style.display = 'none';
+            }
         }
 
         document.addEventListener('contextmenu', event => { if(isProxyBlockOn) event.preventDefault(); });
@@ -738,11 +770,19 @@
             } else { alert("شغل قناة الأول!"); }
         }
 
+        // كود تشغيل الفيديو الأساسي بصوت تلقائي إجباري
         const safePlayVideo = () => {
+            hlsVideo.muted = false;
+            hlsVideo.volume = 1.0;
             const playPromise = hlsVideo.play();
             if (playPromise !== undefined) {
-                playPromise.then(() => { hlsVideo.muted = false; hlsVideo.volume = 1.0; })
-                .catch(() => { hlsVideo.muted = true; hlsVideo.play().catch(e => console.log(e)); });
+                playPromise.then(() => { 
+                    hlsVideo.muted = false; 
+                    hlsVideo.volume = 1.0; 
+                }).catch(() => { 
+                    hlsVideo.muted = true; 
+                    hlsVideo.play().catch(e => console.log(e)); 
+                });
             }
         };
 
@@ -797,6 +837,7 @@
         function closePlayer() {
             if(document.body.classList.contains('theater-active')) toggleTheaterMode();
             document.getElementById('video-wrapper').style.display = 'none';
+            // تم تصحيح الكود هنا لإخفاء الزراير بشكل صحيح
             ['navClosePlayerBtn', 'theaterModeBtn', 'navRefreshPlayerBtn', 'castBtn', 'navExternalBtn'].forEach(id => document.getElementById(id).style.display = 'none');
             playerError.style.display = 'none';
             
