@@ -361,6 +361,18 @@ https://cup2026.aflam4you.pro/zremb472.php?vid=44444&aflam_s=1&aflam_w=360&aflam
 https://cup2026.aflam4you.pro/zremb472.php?vid=5555&aflam_s=1&aflam_w=360&aflam_h=250&aflam_k=183871551111
 #EXTINF:-1 tvg-logo="https://cup2026.aflam4you.pro/zremb472.php?vid=6666&aflam_s=1&aflam_w=360&aflam_h=250&aflam_k=183871551111" group-title="مضاف يدوياً",قناة
 https://cup2026.aflam4you.pro/zremb472.php?vid=6666&aflam_s=1&aflam_w=360&aflam_h=250&aflam_k=183871551111
+#EXTINF:-1 tvg-logo="[6/15/2026 11:48 PM] It 's Me 2830: https://a8.kora-plus.app/frame.php?ch=alwan1&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556431" group-title="مضاف يدوياً",قناة
+[6/15/2026 11:48 PM] It 's Me 2830: https://a8.kora-plus.app/frame.php?ch=alwan1&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556431
+#EXTINF:-1 tvg-logo="https://a7.kora-plus.app/frame.php?ch=max2&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556449" group-title="مضاف يدوياً",قناة
+https://a7.kora-plus.app/frame.php?ch=max2&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556449
+#EXTINF:-1 tvg-logo="https://a7.kora-plus.app/frame.php?ch=max22&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556464" group-title="مضاف يدوياً",قناة
+https://a7.kora-plus.app/frame.php?ch=max22&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556464
+#EXTINF:-1 tvg-logo="https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f31372e6c6976656b6f6f72612e626c6f672f616c6261706c617965722f6c697665312f" group-title="مضاف يدوياً",قناة
+https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f31372e6c6976656b6f6f72612e626c6f672f616c6261706c617965722f6c697665312f
+#EXTINF:-1 tvg-logo="https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f746f70732e706f69792e6f6e6c696e652f616c6261706c617965722f6d6178312f" group-title="مضاف يدوياً",قناة
+https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f746f70732e706f69792e6f6e6c696e652f616c6261706c617965722f6d6178312f
+#EXTINF:-1 tvg-logo="[6/15/2026 11:49 PM] It 's Me 2830: https://s3.us-east-2.amazonaws.com/cdnh111/hls/0/stream_1280x720_3300k.m3u8" group-title="مضاف يدوياً",قناة
+[6/15/2026 11:49 PM] It 's Me 2830: https://s3.us-east-2.amazonaws.com/cdnh111/hls/0/stream_1280x720_3300k.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-icons-png.flaticon.com/512/3163/3163508.png" group-title="bn 2",https://player.syria-player.live/albaplayer/bein2/
 https://player.syria-player.live/albaplayer/bein2/
 #EXTINF:-1 tvg-logo="https://cdn-icons-png.flaticon.com/512/3163/3163508.png" group-title="bn 2",قناة 3
@@ -3891,3 +3903,87 @@ https://12cup-live.s3.eu-north-1.amazonaws.com/en/en_480p/index.m3u8
 https://12cup-live.s3.eu-north-1.amazonaws.com/en/en_720p/index.m3u8
 #EXTINF:-1 tvg-logo="https://12cup-live.s3.eu-north-1.amazonaws.com/en/en_1080p/index.m3u8" group-title="iptv",EN - 1080p
 https://12cup-live.s3.eu-north-1.amazonaws.com/en/en_1080p/index.m3u8
+#EXTINF:-1 tvg-logo="https://a8.kora-plus.app/frame.php?ch=alwan1&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556431" group-title="IFRAMES",ALWA
+https://a8.kora-plus.app/frame.php?ch=alwan1&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556431
+#EXTINF:-1 tvg-logo="https://a7.kora-plus.app/frame.php?ch=max2&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556449" group-title="IFRAMES",قناة
+https://a7.kora-plus.app/frame.php?ch=max2&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556449
+#EXTINF:-1 tvg-logo="https://a7.kora-plus.app/frame.php?ch=max22&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556464" group-title="IFRAMES",قناة
+https://a7.kora-plus.app/frame.php?ch=max22&p=12&token=00634770-a93e-4008-8968-badf494baa4a&kt=1781556464
+#EXTINF:-1 tvg-logo="https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f31372e6c6976656b6f6f72612e626c6f672f616c6261706c617965722f6c697665312f" group-title="IFRAMES",قناة
+https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f31372e6c6976656b6f6f72612e626c6f672f616c6261706c617965722f6c697665312f
+#EXTINF:-1 tvg-logo="https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f746f70732e706f69792e6f6e6c696e652f616c6261706c617965722f6d6178312f" group-title="IFRAMES",قناة
+https://score808.mov/share/stream100.php?token=68747470733a2f2f687265662e6c692f3f68747470733a2f2f746f70732e706f69792e6f6e6c696e652f616c6261706c617965722f6d6178312f
+#EXTINF:-1 tvg-logo="https://s3.us-east-2.amazonaws.com/cdnh111/hls/0/stream_1280x720_3300k.m3u8" group-title="IFRAMES",قناة
+https://s3.us-east-2.amazonaws.com/cdnh111/hls/0/stream_1280x720_3300k.m3u8
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch1/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch1/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch2/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch2/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch3/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch3/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch4/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch4/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch5/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch5/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch6/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch6/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch7/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch7/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch8/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch8/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch9/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch9/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch10/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch10/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch11/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch11/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch12/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch12/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch13/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch13/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch14/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch14/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch15/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch15/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch16/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch16/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch17/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch17/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch18/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch18/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch19/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch19/
+#EXTINF:-1 tvg-logo="https://11.yallashoot1.cc/albaplayer/ch20/" group-title="IFRAMES",قناة
+https://11.yallashoot1.cc/albaplayer/ch20/
+#EXTINF:-1 tvg-logo="https://koora24.space/embed/76" group-title="IFRAMES",قناة
+https://koora24.space/embed/76
+#EXTINF:-1 tvg-logo="https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max2.m3u8" group-title="IFRAMES",قناة
+https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max2.m3u8
+#EXTINF:-1 tvg-logo="https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max1.m3u8" group-title="IFRAMES",قناة
+https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max1.m3u8
+#EXTINF:-1 tvg-logo="https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max3.m3u8" group-title="IFRAMES",قناة
+https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max3.m3u8
+#EXTINF:-1 tvg-logo="https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max4.m3u8" group-title="IFRAMES",قناة
+https://v2.site22.top/broadcast/7ijhNzfqWS9pahznbCND7g/1781560716/1781560455/1/max4.m3u8
+#EXTINF:-1 tvg-logo="https://new.muesra.sbs/albaplayer/yalls1/" group-title="IFRAMES",قناة
+https://new.muesra.sbs/albaplayer/yalls1/
+#EXTINF:-1 tvg-logo="https://new.muesra.sbs/albaplayer/yalls2/" group-title="IFRAMES",قناة
+https://new.muesra.sbs/albaplayer/yalls2/
+#EXTINF:-1 tvg-logo="https://new.muesra.sbs/albaplayer/yalls3/" group-title="IFRAMES",قناة
+https://new.muesra.sbs/albaplayer/yalls3/
+#EXTINF:-1 tvg-logo="https://new.muesra.sbs/albaplayer/yalls4/" group-title="IFRAMES",قناة
+https://new.muesra.sbs/albaplayer/yalls4/
+#EXTINF:-1 tvg-logo="https://live.kooran22.cfd/tist2/index.m3u8" group-title="IFRAMES",قناة
+https://live.kooran22.cfd/tist2/index.m3u8
+#EXTINF:-1 tvg-logo="https://39.256529.sbs/albaplayer/ch1/" group-title="IFRAMES",قناة
+https://39.256529.sbs/albaplayer/ch1/
+#EXTINF:-1 tvg-logo="https://39.256529.sbs/albaplayer/ch2/" group-title="IFRAMES",قناة
+https://39.256529.sbs/albaplayer/ch2/
+#EXTINF:-1 tvg-logo="https://39.256529.sbs/albaplayer/ch3/" group-title="IFRAMES",قناة
+https://39.256529.sbs/albaplayer/ch3/
+#EXTINF:-1 tvg-logo="https://39.256529.sbs/albaplayer/ch4/" group-title="IFRAMES",قناة
+https://39.256529.sbs/albaplayer/ch4/
+#EXTINF:-1 tvg-logo="https://39.256529.sbs/albaplayer/ch5/" group-title="IFRAMES",قناة
+https://39.256529.sbs/albaplayer/ch5/
+#EXTINF:-1 tvg-logo="https://plir.bein4kora.com/albaplayer/maninax/" group-title="IFRAMES",قناة
+https://plir.bein4kora.com/albaplayer/maninax/
